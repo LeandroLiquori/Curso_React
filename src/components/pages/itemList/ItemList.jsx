@@ -1,4 +1,4 @@
-const ItemList = (saludar) => {
+const ItemList = ({ apellido, saludar }) => {
   return (
     <div>
       <h1>{saludar}</h1>

@@ -1,7 +1,7 @@
 import ItemList from "./ItemList";
 
-const ItemListCotainer = (saludar) => {
+const ItemListContainer = ({ saludar }) => {
   return <ItemList saludar={saludar} />;
 };
 
-export default ItemListCotainer;
+export default ItemListContainer;

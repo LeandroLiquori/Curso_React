@@ -1,13 +1,14 @@
-import Home from "./components/pages/home/Home";
 import Navbar from "./components/layout/navbar/Navbar";
-import ItemListCotainer from "./components/pages/itemList/ItemListCotainer";
+import HomeContainer from "./components/pages/home/HomeContainer";
+import ItemListContainer from "./components/pages/itemList/ItemListContainer";
+
 function App() {
-  const saludar = "Hola, ¿Como estas?";
+  const saludar = "Hola como estas? Bienvenido a LianShop";
   return (
     <div>
       <Navbar />
-      <Home />
-      <ItemListCotainer saludar={saludar} />
+      <HomeContainer />
+      <ItemListContainer saludar={saludar} />
     </div>
   );
 }

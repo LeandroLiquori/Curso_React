@@ -1,12 +1,4 @@
-import "./Home.css";
-import { useState } from "react";
-
-const Home = () => {
-  const [contador, setContador] = useState(0);
-  const sumar = () => {
-    setContador(contador + 1);
-  };
-
+const Home = ({ contador, sumar, restar }) => {
   return (
     <div className="home">
       <h1 className="home_h1">
@@ -14,6 +6,7 @@ const Home = () => {
       </h1>
       <h2>{contador}</h2>
       <button onClick={sumar}>Sumar</button>
+      <button onClick={restar}>Restar</button>
     </div>
   );
 };
