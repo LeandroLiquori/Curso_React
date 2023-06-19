@@ -1,4 +1,6 @@
-import CartWidget from "../../common/cartWidget/CartWidget";
+//import CartWidget from "../../common/cartWidget/CartWidget";
+import Badge from "@mui/material/Badge";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import "./Navbar.css";
 const Navbar = () => {
   return (
@@ -13,7 +15,9 @@ const Navbar = () => {
         <li>Hombre</li>
         <li>Mujer</li>
       </ul>
-      <CartWidget />
+      <Badge badgeContent={4} color="primary">
+        <ShoppingCartIcon fontSize="large" className="carrito" />
+      </Badge>
     </div>
   );
 };
