@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.container_logo {
+  height: 10rem;
+  background-color: black;
+  border-radius: 5rem;
+}
+
+.container_list {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-right: 2rem;
+  color: whitesmoke;
+}
+.container_carrito {
+  color: white;
+  margin-top: 3rem;
+  margin-right: 1rem;
+}
