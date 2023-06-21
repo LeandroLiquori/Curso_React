@@ -11,9 +11,21 @@ const Navbar = () => {
         alt="Logo"
       />
       <ul className="container_list">
-        <li>Inicio</li>
-        <li>Hombre</li>
-        <li>Mujer</li>
+        <li>
+          <a className="links" href="">
+            Inicio
+          </a>
+        </li>
+        <li>
+          <a className="links" href="">
+            Hombre
+          </a>
+        </li>
+        <li>
+          <a className="links" href="">
+            Mujer
+          </a>
+        </li>
       </ul>
       <Badge badgeContent={4} color="primary">
         <ShoppingCartIcon fontSize="large" className="carrito" />
