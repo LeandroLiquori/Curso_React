@@ -1,0 +1,11 @@
+.tarjetas {
+  height: 10rem;
+}
+.title {
+  text-align: center;
+}
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

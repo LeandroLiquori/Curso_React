@@ -1,35 +1,33 @@
-//import CartWidget from "../../common/cartWidget/CartWidget";
-import Badge from "@mui/material/Badge";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import CartWidget from "../../common/cartWidget/CartWidget";
 import "./Navbar.css";
+import { Link, Outlet } from "react-router-dom";
 const Navbar = () => {
   return (
-    <div className="container">
-      <img
-        className="container_logo"
-        src="https://res.cloudinary.com/dzvfjjhb6/image/upload/v1687132305/clothing-shop-logo-design-apparel-store-sign-vector_t8ajwv.jpg"
-        alt="Logo"
-      />
-      <ul className="container_list">
-        <li>
-          <a className="links" href="">
+    <div>
+      <div className="container">
+        <Link to="/">
+          <img
+            className="container_logo"
+            src="https://res.cloudinary.com/dzvfjjhb6/image/upload/v1687132305/clothing-shop-logo-design-apparel-store-sign-vector_t8ajwv.jpg"
+            alt="Logo"
+          />
+        </Link>
+        <ul className="container_list">
+          <Link to="/" className="links">
             Inicio
-          </a>
-        </li>
-        <li>
-          <a className="links" href="">
+          </Link>
+
+          <Link to="/category/Hombre" className="links">
             Hombre
-          </a>
-        </li>
-        <li>
-          <a className="links" href="">
+          </Link>
+
+          <Link to="/category/Mujer" className="links">
             Mujer
-          </a>
-        </li>
-      </ul>
-      <Badge badgeContent={4} color="primary">
-        <ShoppingCartIcon fontSize="large" className="carrito" />
-      </Badge>
+          </Link>
+        </ul>
+        <CartWidget />
+      </div>
+      <Outlet />
     </div>
   );
 };

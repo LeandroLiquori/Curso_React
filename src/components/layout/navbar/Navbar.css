@@ -27,8 +27,25 @@
   color: white;
 }
 .MuiBadge-root.css-1c32n2y-MuiBadge-root {
-  margin: 2rem;
+  margin: 4rem;
 }
 .links {
-  color: whitesmoke;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  width: 5rem;
+  text-align: center;
+  text-decoration: none;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MuiCardMedia-root.css-1gikaep-MuiCardMedia-root {
+  display: flex;
+  height: 20rem;
+  width: 20rem;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-hkdbh3-MuiPaper-root-MuiCard-root {
+  width: 20rem;
 }
