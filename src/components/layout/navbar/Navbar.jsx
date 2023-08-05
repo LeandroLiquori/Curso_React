@@ -1,7 +1,8 @@
 import CartWidget from "../../common/cartWidget/CartWidget";
 import "./Navbar.css";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Navbar = () => {
+  let userRol = "user";
   return (
     <div>
       <div className="container">
@@ -25,9 +26,9 @@ const Navbar = () => {
             Mujer
           </Link>
         </ul>
+        {userRol === "admin" && <Link to="/dashboard">ADMIN</Link>}
         <CartWidget />
       </div>
-      <Outlet />
     </div>
   );
 };

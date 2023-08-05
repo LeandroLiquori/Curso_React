@@ -1,9 +1,10 @@
 import { Button } from "@mui/material";
+import "./Counter.css";
 
 const Counter = ({ counter, setCounter, agregarAlCarrito, stock }) => {
   return (
     <div>
-      <div style={{ display: "flex" }}>
+      <div className="button" style={{ display: "flex" }}>
         <Button
           disabled={counter <= 1}
           variant="contained"

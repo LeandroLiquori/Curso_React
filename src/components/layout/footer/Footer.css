@@ -1,0 +1,37 @@
+.footerC {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.containerFooter {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilos para el contenido del footer */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-social li {
+  margin-bottom: 10px;
+}
+
+.footer-social a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  color: #007bff;
+}

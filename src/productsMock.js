@@ -1,6 +1,5 @@
 export const products = [
   {
-    id: 1,
     title: "Nike",
     price: 1500,
     stock: 5,
@@ -9,7 +8,6 @@ export const products = [
     img: "https://res.cloudinary.com/dzvfjjhb6/image/upload/v1688429172/NIDV9829-010-1_eomr1v.jpg",
   },
   {
-    id: 2,
     title: "SevenPoint",
     price: 5000,
     stock: 3,
@@ -18,7 +16,6 @@ export const products = [
     img: "https://res.cloudinary.com/dzvfjjhb6/image/upload/v1688429215/65_pjxqxs.jpg",
   },
   {
-    id: 3,
     title: "Adidas",
     price: 2000,
     stock: 7,
@@ -27,7 +24,6 @@ export const products = [
     img: "https://res.cloudinary.com/dzvfjjhb6/image/upload/v1688429285/buzo-corto-holgado-adidas-x-farm-rio-estampado-felpa-logo_ncpskj.jpg",
   },
   {
-    id: 4,
     title: "New Balance",
     price: 7500,
     stock: 8,
